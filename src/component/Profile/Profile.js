@@ -71,6 +71,8 @@ function Profile() {
   };
 
   const name = JSON.parse(localStorage.getItem("user")).username;
+  alert(`${name} enter all details`);
+
 
   return (
     <div className="form-container">
