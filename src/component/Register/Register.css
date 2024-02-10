@@ -50,4 +50,9 @@
   span a:hover {
     text-decoration: underline;
   }
+  body {
+    background: linear-gradient(to right, #2980b9, #6dd5fa); 
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
   
