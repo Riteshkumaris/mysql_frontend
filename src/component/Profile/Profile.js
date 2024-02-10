@@ -75,7 +75,7 @@ function Profile() {
   return (
     <div className="form-container">
       <form className="form" onSubmit={handleSubmit}>
-        <h3 className="name">{name} Please fill all details</h3>
+        {/* <h3 className="name">{name} Please fill all details</h3> */}
         <input
           type="text"
           placeholder="Age"

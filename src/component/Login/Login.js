@@ -37,6 +37,9 @@ function Login() {
           alert("Invalid username or password");
         } else {
           localStorage.setItem("user", JSON.stringify(data.user));
+          const name = JSON.parse(localStorage.getItem("user")).username;
+          alert(`${name} enter all details`);
+
           navigate("/profile");
         }
         alert("Login successful")
